@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #6C5B7B;
     font-family: 'Anek Telugu', sans-serif;
     font-size: 21px;
     overflow-x: hidden;
@@ -26,7 +26,7 @@ header {
 /* ------------------- Navigation -------------------------- */
 nav {
     align-items: center;
-    background-color: #000000;
+    background-color: #6C5B7B;
     display: flex;
     justify-content: space-around;
     min-height: 8vh;
@@ -49,14 +49,15 @@ nav {
 }
 
 .nav__links {
+    cursor: hand;
     align-items: center;
-    background-color: #000000;
+    background-color: #CD6C84;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 92vh;
     position: absolute;
-    width: 50%;
+    width: 100%;
     right: 0;
     top: 8vh;
     transform: translateX(100%);
@@ -70,18 +71,25 @@ nav {
 
 .nav__links a {
     letter-spacing: 2px;
-    font-size: 240%;
-    font-weight: bold;
+    font-size: 200%;
+    font-weight: 100;
     color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+}
+
+.nav__links a:hover {
+    font-size: 300%;
+    font-weight: 700;
 }
 
 /* ------------ Burger Menu ------------------------ */
 .burger {
-    cursor: default;
     display: block;
 }
 
 .burger div {
+    cursor: hand;
     width: 25px;
     height: 3px;
     background-color: #ffffff;
