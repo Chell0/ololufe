@@ -57,7 +57,7 @@ nav {
     justify-content: space-around;
     height: 92vh;
     position: absolute;
-    width: 100%;
+    width: 50%;
     right: 0;
     top: 8vh;
     transform: translateX(100%);
@@ -70,17 +70,13 @@ nav {
 }
 
 .nav__links a {
+    /*text-transform: uppercase;*/
     letter-spacing: 2px;
-    font-size: 200%;
-    font-weight: 100;
-    color: #0091CF;
-    text-decoration: none;
-    text-align: left;
-}
-
-.nav__links a:hover {
     font-size: 300%;
-    font-weight: 700;
+    font-weight: 500;
+    color: #0091CF;
+    text-decoration: underline;
+    text-align: left;
 }
 
 /* ------------ Burger Menu ------------------------ */
