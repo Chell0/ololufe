@@ -8,7 +8,7 @@
 }
 
 .contact__section .row .white {
-    color: #ffffff;
+    color: #FFAF00;
     font-size: 400%;
     font-weight: 700;
     margin-bottom: 20px;
@@ -17,7 +17,7 @@
 .contact__section .row p {
     font-size: 340%;
     font-weight: 700;
-    color: #ffffff;
+    color: #FFAF00;
 }
 
 .contact__section .row .mail {
@@ -25,12 +25,12 @@
     font-size: 300%;
     font-weight: 700;
     margin-top: 20px;
-    color: #FFAF00;
+    color: #ffffff;
 }
 
 .contact__section .row .cell {
     font-size: 300%;
     font-weight: 700;
-    color: #FFAF00;
+    color: #ffffff;
 }
 /* --------------------------------------------- */

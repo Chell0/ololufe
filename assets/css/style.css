@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #0091CF;
+    background-color: #292522;
     font-family: 'Anek Telugu', sans-serif;
     font-size: 21px;
     overflow-x: hidden;
@@ -26,7 +26,7 @@ header {
 /* ------------------- Navigation -------------------------- */
 nav {
     align-items: center;
-    background-color: #0091CF;
+    background-color: #292522;
     display: flex;
     justify-content: space-around;
     min-height: 8vh;
@@ -37,21 +37,22 @@ nav {
 
 /* Logo */
 #logo {
-    font-size: 80%;
-    font-weight: bold;
+    font-family: 'Ms Madi', cursive;
+    font-size: 120%;
+    font-weight: 400;
     margin-right: 920px;
     cursor: hand;
 }
 
 #logo a {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFAF00;
 }
 
 .nav__links {
     cursor: hand;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #FFAF00;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -70,13 +71,12 @@ nav {
 }
 
 .nav__links a {
-    /*text-transform: uppercase;*/
+    color: #292522;
     letter-spacing: 2px;
     font-size: 300%;
-    font-weight: 500;
-    color: #0091CF;
-    text-decoration: underline;
+    font-weight: 700;
     text-align: left;
+    text-decoration: none;
 }
 
 /* ------------ Burger Menu ------------------------ */
@@ -88,7 +88,7 @@ nav {
     cursor: hand;
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: #FFAF00;
     margin: 5px;
 }
 /* ------------------------------------------------- */
@@ -136,7 +136,7 @@ nav {
 }
 
 .hero p {
-    color: #ffffff;
+    color: #FFAF00;
     height: 100%;
     width: 100%;
     font-size: 650%;
@@ -151,7 +151,7 @@ nav {
     text-align: center;
     font-size: 200%;
     font-weight: 600;
-    color: #ffffff;
+    color: #FFAF00;
     padding-bottom: 20px;
 }
 
@@ -173,16 +173,16 @@ nav {
 
 .footer .row .col p {
     font-size: 55%;
-    color: #ffffff;
+    color: #FFAF00;
 }
 
 .footer .row .col p.contacts {
     text-decoration: underline;
-    color: #ffffff;
+    color: #FFAF00;
 }
 
 .socials a {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFAF00;
 }
 /* ------------------------------ */
