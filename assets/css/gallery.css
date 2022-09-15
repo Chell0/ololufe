@@ -1,0 +1,92 @@
+/* ------------------- GalleryPage ----------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery__header__section {
+    height: 25vh;
+}
+
+#gallery__header__section .content {
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery__header__section .hero {
+    height: 90%;
+    width: 90%;
+}
+
+#gallery__header__section .hero p {
+    color: #FFAF00;
+    height: 100%;
+    width: 100%;
+    font-size: 400%;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GallerySection */
+.gallery__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.gallery__section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gallery__section ul li {
+    list-style: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border: solid 2px #FFAF00;
+    color: #FFAF00;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.gallery__section ul li.active {
+    background-color: #FFAF00;
+    color: #292522;
+}
+
+.gallery__section .photo__gallery {
+    column-count: 4;
+    column-gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gallery__section .photo__gallery .itemBox {
+    position: relative;
+    width: 100%;
+}
+
+.gallery__section .photo__gallery .itemBox.hide {
+    display: none;
+}
+
+.gallery__section .photo__gallery .itemBox img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+/* ------------------------------------------------- */
