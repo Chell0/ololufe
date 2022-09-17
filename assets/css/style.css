@@ -37,8 +37,9 @@ nav {
 
 /* Logo */
 #logo {
-    font-family: 'Ms Madi', cursive;
-    font-size: 120%;
+    /* font-family: 'Ms Madi', cursive; */
+    font-size: 80%;
+    text-transform: uppercase;
     font-weight: 400;
     margin-right: 920px;
     cursor: hand;
@@ -139,7 +140,7 @@ nav {
     color: #FFAF00;
     height: 100%;
     width: 100%;
-    font-size: 650%;
+    font-size: 850%;
     font-weight: 700;
 }
 
